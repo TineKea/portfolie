@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>KEA studieportfolie</title>
+
+    <link rel="stylesheet" href="/../portfolie/css/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Playfair:wght@500&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Forside</a>
+                </li>
+
+                <li>
+                    <a href="web.html">Tema 1 web</a>
+                </li>
+
+                <li>
+                    <a href="ux.html">Tema 2 UX</a>
+                </li>
+                <li>
+                    <a href="animation.html">Tema 3 animation</a>
+                </li>
+                <li>
+                    <a href="indhold.html">Tema 4 indhold</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="headline">
+            <h1>KEA - Københavns Erhversakademi</h1>
+            <h2>Tine Holm Tinhøj</h2>
+        </div>
+
+        <div class="date_time">
+            <div>
+                <p>Hvad er datoen i dag?</p>
+                <p id="clock"></p>
+                <div id="current_date">
+                    <script>
+                        date = new Date();
+                        year = date.getFullYear();
+                        month = date.getMonth() + 1;
+                        day = date.getDate();
+                        document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+                    </script>
+                </div>
+            </div>
+
+            <div>
+                <p>hvad var datoen for det færdige portfolio?</p>
+                <p>18.12.52</p>
+                <p>6/13/2023 </p>
+            </div>
+        </div>
+
+
+        <div>
+            <img src="/../portfolie/img/forside.webp" alt="Portfolio forside billede">
+        </div>
+
+        <div>
+            <p>Mit navn er Tine Holm Tinhøj.</p>
+            <p>Jeg er 26 år gammel og går på 1. semster på multimediedesign uddannelsen på KEA.</p>
+            <p>Jeg valgte at starte på MMD på KEA fordi jeg er en kreativ person, som ønskede at få en uddannelse som
+                åbner op for mange muligheder på arbejdsmarket.</p>
+            <p>Jeg plejer at beskrive mig selv som et unikum af en weirdo, som lider af kronisk overbegejstring, med et
+                twist af krudt i måsen.</p>
+        </div>
+
+        <div class="grid_1-1">
+            <div>
+                <img src="/../portfolie/img/profil_1.webp" alt="Profilbillede af Tine">
+            </div>
+            <div>
+                <img src="/../portfolie/img/profil_2.webp" alt="Profilbillede af Tine">
+            </div>
+        </div>
+
+        <div>
+            <h2>Præsentationskort lavet i introugen:</h2>
+            <img src="/../portfolie/img/Tine_Tinhøj.jpg" alt="Intro uge præsentatiotionskort">
+        </div>
+
+    </main>
+    <footer class="footer_grid">
+        <div>
+            <p>KEA studieportfolie f23</p>
+            <p>Tine Holm Tinhøj</p>
+        </div>
+
+        <div>
+            <p>Kontakt:</p>
+           <div>
+                <img src="/../portfolie/img/linkedin.png" alt="LinkedIn">
+                <a href="https://www.linkedin.com/in/tine-holm-tinh%C3%B8j-3b1a44241/" target="_blank">Min LinkedIn
+                    profil</a>
+            </div>
+            <div>
+                <img src="/../portfolie/img/email_icon.png" alt="E-mail">
+                <a href="mailto:titi0001@stud.kea.dk">Titi0001@stud.kea.dk</a>
+            </div>
+
+        </div>
+    </footer>
+    <script src="/../portfolie/js/timer.js"></script>
+</body>
